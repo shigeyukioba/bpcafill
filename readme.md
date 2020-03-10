@@ -27,6 +27,8 @@ Place the source files (*.m) in arbitrary directory in MATLAB PATH.
 ## Usage
 ### Simplest usage
 
+![matrix](mismat.png "サンプル")
+
 Prepare data matrix in which missing entries in matrix are denoted by value 999.0. BPCAfill estimates the missing entries using BPCA model and returns complete matrix filled with the estimated values.
 
 ```
